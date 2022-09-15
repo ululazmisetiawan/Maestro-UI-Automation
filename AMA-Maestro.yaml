@@ -1,0 +1,13 @@
+appId: id.anteraja.aca.sit
+---
+#As a user, i can successfully login apps with valid account
+- launchApp
+- tapOn : "Same Day"
+- tapOn : "Pick-Up, Free pickup without minimum"
+- tapOn : "Log In"
+- tapOn : "Phone Number"
+- inputText : "83806141312"
+- tapOn : "Password"
+- tapOn : "ulul1234"
+
+
